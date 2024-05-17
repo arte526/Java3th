@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="670.0" prefWidth="1003.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Controller">
+    <Button fx:id="checkActorButton" layoutX="208.0" layoutY="104.0" onAction="#checkActor" text="Check for Actor with No Movies" />
+    <Button fx:id="findCoActorsButton" layoutX="407.0" layoutY="104.0" onAction="#findCoActors" text="Find Co-Actors" />
+    <Button fx:id="findMovieButton" layoutX="30.0" layoutY="104.0" onAction="#findMovie" text="Find Movie with Most Actors" />
+    <TextArea fx:id="resultArea" editable="false" layoutX="23.0" layoutY="135.0" prefHeight="189.0" prefWidth="332.0" />
+   <ChoiceBox fx:id="actorComboBox" layoutX="509.0" layoutY="104.0" prefWidth="150.0" />
+</AnchorPane>

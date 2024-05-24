@@ -1,0 +1,6 @@
+.button-clear{
+
+    -fx-background-color:green;
+    -fx-cursor: hand;
+    -fx-background-radius: 40px;
+}

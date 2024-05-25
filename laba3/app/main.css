@@ -1,0 +1,114 @@
+/* main.css */
+
+/* AnchorPane background color */
+#main {
+    -fx-background-color: #f0f0f0; /* Light gray */
+}
+
+/* Labels */
+Label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333; /* Dark gray */
+}
+
+/* TextFields */
+TextField {
+    -fx-font-size: 14px;
+    -fx-pref-width: 150px;
+}
+#nameTextField {
+    -fx-font-size: 14px;
+    -fx-min-width: 228px;
+}
+#IdTextField {
+    -fx-font-size: 14px;
+    -fx-pref-width: 38px;
+}
+/* Buttons */
+Button {
+    -fx-font-size: 14px;
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white;
+    -fx-min-width: 80px; /* Minimum width */
+    -fx-max-width: 150px; /* Maximum width */
+}
+
+/* Button on hover */
+Button:hover {
+    -fx-background-color: #45a049; /* Darker green */
+}
+
+/* Button when pressed */
+Button:pressed {
+    -fx-background-color: #367736; /* Even darker green */
+}
+
+/* Button with class button-clear */
+.button-clear {
+    -fx-background-color: #ecec53; /* Red */
+    -fx-text-fill: black;
+}
+
+/* Button-clear on hover */
+.button-clear:hover {
+    -fx-background-color: #ffff00; /* Darker red */
+}
+
+/* Button-clear when pressed */
+.button-clear:pressed {
+    -fx-background-color: #b8b814; /* Even darker red */
+}
+
+/* Result TextField */
+#TextFieldresalt {
+    -fx-font-size: 14px;
+    -fx-pref-width: 200px;
+}
+.cancel-button {
+    -fx-background-color: red; /* Колір фону */
+    -fx-text-fill: white; /* Колір тексту */
+    fx-font-size: 14px; /* Розмір шрифту */
+    -fx-padding: 10px 20px; /* Відступи */
+    -fx-min-width: 1px; /* Мінімальна ширина */
+    -fx-min-height: 1px;
+}
+
+.cancel-button:hover {
+    -fx-background-color: #cc0000;
+}
+.clear-fields-button {
+    -fx-background-color: #ffffff; /* Колір фону */
+    -fx-text-fill: #000000; /* Колір тексту */
+    -fx-font-size: 12px; /* Розмір шрифту */
+    -fx-padding: 5px 10px; /* Відступи */
+    -fx-border-color: #bebebe; /* Колір межі */
+    -fx-border-radius: 5px; /* Радіус межі */
+    -fx-min-width: 1px; /* Мінімальна ширина */
+    -fx-min-height: 1px;
+}
+.clear-fields-button:hover {
+    -fx-background-color: bebebe; /* Колір фону при наведенні */
+    -fx-text-fill: black; /* Колір тексту при наведенні */
+}
+.clear-fields-button:pressed {
+    -fx-background-color: #989898; /* Колір фону при наведенні */
+    -fx-text-fill: black; /* Колір тексту при наведенні */
+}
+.delete-button {
+    --fx-font-size: 14px;
+    -fx-background-color: red; /* Green */
+    -fx-text-fill: white;
+    -fx-min-width: 80px; /* Minimum width */
+    -fx-max-width: 150px; /* Maximum width */
+
+}
+
+/* Стилі для наведення на кнопку */
+.delete-button:hover {
+    -fx-background-color: #cc0000; /* Зміна кольору при наведенні */
+}
+
+
+.delete-button:pressed {
+    -fx-background-color: #aa0000;
+}
